@@ -1,5 +1,6 @@
 {
   "name": "cloverfield-build-make",
+  "private": true,
   "version": "0.0.1",
   "description": "Example building cloverfield with make",
   "scripts": {
