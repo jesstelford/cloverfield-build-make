@@ -3,6 +3,27 @@
 An example of building a project with `make`, based on the [TodoMVC backbone
 example](https://github.com/tastejs/todomvc/tree/gh-pages/examples/backbone).
 
+To run the build process;
+
+```bash
+make
+```
+
+Available make targets can be seen in `Makefile`;
+
+```
+all   - alias for make lint build test
+build - alias for make css js
+js    - concat + compress js files
+css   - convert scss to css
+lint  - use eslint to check correctness of js files
+test  - run tape tests as present in test/ dir
+```
+
+Note that the `css` target really doesn't do anything - it is a contrived
+example for this repo and merely results in copying an existing `.css` file to
+another location (it was never Sass to begin with!)
+
 ## Motivation
 
 > Cloverfield aims to create a next generation JavaScript project boilerplate.
