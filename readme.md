@@ -15,7 +15,7 @@ npm install
 To run the build process
 
 ```bash
-make
+make <target>
 ```
 
 Available make targets can be seen in `Makefile`;
