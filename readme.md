@@ -3,7 +3,16 @@
 An example of building a project with `make`, based on the [TodoMVC backbone
 example](https://github.com/tastejs/todomvc/tree/gh-pages/examples/backbone).
 
-To run the build process;
+## Getting Started
+
+```bash
+git clone https://github.com/jesstelford/cloverfield-build-make.git && cd cloverfield-build-make
+npm install
+```
+
+## Build process
+
+To run the build process
 
 ```bash
 make
@@ -18,6 +27,7 @@ js    - concat + compress js files
 css   - convert scss to css
 lint  - use eslint to check correctness of js files
 test  - run tape tests as present in test/ dir
+clean - clean up after previously run build targets
 ```
 
 Note that the `css` target really doesn't do anything - it is a contrived
