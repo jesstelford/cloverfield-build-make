@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "Example building cloverfield with make",
   "scripts": {
-    "postinstall": "bower install"
+    "postinstall": "bower install",
+    "build-all": "make lint build test",
+    "build-clean": "make clean"
   },
   "repository": {
     "type": "git",

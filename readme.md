@@ -34,6 +34,16 @@ Note that the `css` target really doesn't do anything - it is a contrived
 example for this repo and merely results in copying an existing `.css` file to
 another location (it was never Sass to begin with!)
 
+### `npm run` aliases
+
+I have aliased a couple of the commands in `package.json` as runnable scripts.
+This is done as an example showing how `make` and `npm` can live in harmony.
+
+```bash
+npm run build-all   # alias for make lint build test
+npm run build-clean # alias for make clean
+```
+
 ## Motivation
 
 > Cloverfield aims to create a next generation JavaScript project boilerplate.
