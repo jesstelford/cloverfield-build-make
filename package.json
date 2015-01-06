@@ -1,0 +1,32 @@
+{
+  "name": "cloverfield-build-make",
+  "version": "0.0.1",
+  "description": "Example building cloverfield with make",
+  "scripts": {
+    "postinstall": "bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jesstelford/cloverfield-build-make.git"
+  },
+  "keywords": [
+    "cloverfield",
+    "make",
+    "build"
+  ],
+  "author": "Jess Telford <hi@jes.st>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesstelford/cloverfield-build-make/issues"
+  },
+  "homepage": "https://github.com/jesstelford/cloverfield-build-make",
+  "dependencies": {
+    "bower": "^1.3.12"
+  },
+  "devDependencies": {
+    "eslint": "^0.11.0",
+    "node-sass": "^2.0.0-beta",
+    "tape": "^3.0.3",
+    "uglify-js": "^2.4.16"
+  }
+}
