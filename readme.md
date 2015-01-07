@@ -23,6 +23,7 @@ Available make targets can be seen in `Makefile`;
 ```
 all   - alias for make lint build test
 build - alias for make css js
+watch-build - trigger rebuild on file change
 js    - concat + compress js files
 css   - convert scss to css
 lint  - use eslint to check correctness of js files
