@@ -1,6 +1,9 @@
 # node modules in executable path
 PATH := node_modules/.bin:$(PATH)
 
+# OSX requires this variable exported so that PATH is also exported.
+SHELL := /bin/bash
+
 source_dir := js
 test_dir   := test
 sass_dir   := bower_components/todomvc-common
