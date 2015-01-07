@@ -44,6 +44,15 @@ css: $(css_files)
 # Shorthand for building all js and css targets
 build: js css
 
+watch-js: js
+	@watch "make js" $(source_dir)
+
+watch-css: css
+	@watch "make css" $(sass_dir)
+
+watch-build:
+	@./scripts/parallel.sh "make watch-js" "make watch-css"
+
 # Lint the found .js files with eslint
 lint: $(source_files)
 	@eslint $(source_dir)
